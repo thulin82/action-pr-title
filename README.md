@@ -10,7 +10,7 @@ See [action.yml](./action.yml)
 
 ```yaml
 steps:
-    - uses: deepakputhraya/action-pr-title@master
+    - uses: thulin82/action-pr-title@main
       with:
           regex: '([a-z])+\/([a-z])+' # Regex the title should match.
           allowed_prefixes: "feature,fix,JIRA" # title should start with the given prefix
